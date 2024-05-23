@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-23T19:01:27 IST" name="Suite" finished-at="2024-05-23T19:02:08 IST" duration-ms="40442">
+    <groups>
+    </groups>
+    <test started-at="2024-05-23T19:01:27 IST" name="Test 1" finished-at="2024-05-23T19:02:08 IST" duration-ms="40442">
+      <class name="com.neopane.springselenium.UserVisaTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:01:27 IST" name="springTestContextBeforeTestClass" finished-at="2024-05-23T19:01:27 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:01:27 IST" name="springTestContextPrepareTestInstance" finished-at="2024-05-23T19:01:44 IST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="16930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:01:45 IST" name="springTestContextBeforeTestMethod" finished-at="2024-05-23T19:01:49 IST" duration-ms="4499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.neopane.springselenium.UserVisaTest.visaTest3(com.neopane.springselenium.entity.Customer)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="visaTest3(com.neopane.springselenium.entity.Customer)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:01:49 IST" name="visaTest3" data-provider="getData" finished-at="2024-05-23T19:02:00 IST" duration-ms="10745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer(id=5, fromCountry=Azerbaijan, toCountry=Cayman Islands, dob=1998-06-30, firstName=Sixta, lastName=Turcotte, email=Sixta@nobody.com, phone=752-962-4736, comments=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visaTest3 -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:00 IST" name="springTestContextAfterTestMethod" finished-at="2024-05-23T19:02:00 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.neopane.springselenium.UserVisaTest.visaTest3(com.neopane.springselenium.entity.Customer)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:00 IST" name="springTestContextBeforeTestMethod" finished-at="2024-05-23T19:02:00 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.neopane.springselenium.UserVisaTest.visaTest3(com.neopane.springselenium.entity.Customer)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="visaTest3(com.neopane.springselenium.entity.Customer)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:00 IST" name="visaTest3" data-provider="getData" finished-at="2024-05-23T19:02:04 IST" duration-ms="3794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer(id=13, fromCountry=Solomon Islands, toCountry=Bosnia and Herzegovina, dob=1995-07-17, firstName=Darren, lastName=Spencer, email=Darren@nobody.com, phone=1-871-729-3982, comments=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visaTest3 -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:04 IST" name="springTestContextAfterTestMethod" finished-at="2024-05-23T19:02:04 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.neopane.springselenium.UserVisaTest.visaTest3(com.neopane.springselenium.entity.Customer)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:04 IST" name="springTestContextBeforeTestMethod" finished-at="2024-05-23T19:02:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.neopane.springselenium.UserVisaTest.visaTest3(com.neopane.springselenium.entity.Customer)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="visaTest3(com.neopane.springselenium.entity.Customer)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:04 IST" name="visaTest3" data-provider="getData" finished-at="2024-05-23T19:02:08 IST" duration-ms="3774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer(id=27, fromCountry=China, toCountry=Moldava, dob=1996-07-19, firstName=Edward, lastName=Gislason, email=Edward@nobody.com, phone=1-198-866-9340, comments=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visaTest3 -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:08 IST" name="springTestContextAfterTestMethod" finished-at="2024-05-23T19:02:08 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.neopane.springselenium.UserVisaTest.visaTest3(com.neopane.springselenium.entity.Customer)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.neopane.springselenium.UserVisaTest@1a1da881]" started-at="2024-05-23T19:02:08 IST" name="springTestContextAfterTestClass" finished-at="2024-05-23T19:02:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.neopane.springselenium.UserVisaTest -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Suite -->
+</testng-results>
